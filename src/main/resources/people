@@ -3,7 +3,7 @@ DROP TABLE IF EXISTS people;
 CREATE TABLE people
 (
 
-    id         INTEGER PRIMARY KEY,
+    id         SERIAL PRIMARY KEY,
     firstname  VARCHAR,
     secondname VARCHAR
 
